@@ -1,0 +1,10 @@
+aula 1 - ambientação e apresentação das ferramentas
+#no direrio do index iniciar o git
+	$git init
+# verificar o status
+	$git status
+# se o arquivo nao estiver sendo monitorado
+	$git add <nome do arquivo>
+# quando fizer as alteracoes
+	$GIT -M COMMIT "MENSAGEM"
+
