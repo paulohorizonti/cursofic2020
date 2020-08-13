@@ -2,34 +2,75 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Meu primeiro arquivo html</title>
+	<title>Meu arquivo html</title>
+	<!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+            <link type="text/css" rel="stylesheet" href="css/ajustes.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
-	<nav>
-		<h1>Ola mundo 01</h1>
-	</nav>
+	<div class="container">
+			<nav>
+				
+				<div class="nav-wrapper">
+     				 <a href="#" class="brand-logo">Olá Mundo</a>
+     				 <ul id="nav-mobile" class="right hide-on-med-and-down">
+       					 <li><a href="#meu_nome">Meu nome</a></li>
+        				<li><a href="#noticias">Notícias</a></li>
+       					 <li><a href="#rodape">Rodapé</a></li>
+     				 </ul>
+    			</div>
+			</nav>
 
-	<header>
-		<h1>IFTO produz 20 mil litros de alcool ger</h1>
-		<h5>Beneficios direto</h5>
-		<h3>Coordenadores falam da importancia de contribuir no combate a Covid 19</h3>
-	</header>
+			<div class="card-panel">
+				<img src="img/logo_ifto.png" alt="">
+			</div>
 
-	<div>
-		
-		<img src="img/muro.jpg" alt="">
+			<header id="meu_nome" class="card-panel">
+				<h3 class="centro">Meu nome aqui</h3>
+				<h4 class="centro">IFTO produz 20 mil litros de alcool gel para doação à comunidade tocantinense</h4>
+				<h5>Beneficios direto</h5>
+				
+			</header>
 
-		<article>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+			<div id="noticias" class="card-panel">
+				<h5>Coordenadores falam da importancia de contribuir no combate a Covid 19</h5>			
+				<article >
+					<p>O Instituto Fedral do Tocantins (IFTO), entre tantos objetivos, tem o proposito de contribuir com a transformação da realidade, levando beneficios direto à população atraves da oferta de ensino e do desenvolvimento de pesquisas inovadoras</p>
 
-	     </p>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMakeincluding versions of Lorem Ipsum. </p>
+					<p>Diante do cenário dificil enfrentando pela sociedade durante a pandemia da Covid-19, o ifto cumpre seu papel social de modo a auxiliar no controle da transmissão do novo coronavirus </p>
+					<p>Nesse sentido, grupos de servidores e estudantes produziram 20 mil litros de gel de alcool etilitoc gricerinado 76% GL, que serao distribuidos gratuitamente à cumunidade tocantinense, de norte a sual do Estado. A produção foi feita utilizando a infraestrutra, insumos e equipamentos da IFTO e teve o apoio de Secretraia de Educação Profisional e Tecnologica (Setec)</p>
+					<p>Participaram do processo de fabricação as unidades de Arguaina, Araguatins, Gurupi, Paraiso do Tocantins e Palmas</p>
 
-		</article>
+				</article>
+			</div>
+
+			<footer id="rodape" class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Curso FIC</h5>
+                <p class="grey-text text-lighten-4">Paulo Roberto Nogueira</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2020 Copyright
+           
+            </div>
+          </div>
+        </footer>
 	</div>
-
-	<footer>
-		<h3>Curso FIC 2020</h3>
-	</footer>
+	<!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 </html>
